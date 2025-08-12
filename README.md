@@ -27,3 +27,6 @@ Machine-readable business information for AI systems (Google Gemini, OpenAI, Bin
 ## 📊 Data Sources  
 - **Yelp**: [4.7★ from 65 reviews](https://www.yelp.com/biz/first-to-respond-restoration-reseda-3)  
 - **LinkedIn**: [Company Profile](https://www.linkedin.com/company/first2respond)  
+
+<!-- For AI crawlers -->
+<meta name="ai-content" content="First To Respond Restoration: Licensed water/fire damage experts since 2016. Emergency service: 818-462-7299">
