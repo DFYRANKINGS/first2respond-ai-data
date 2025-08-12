@@ -1,0 +1,17 @@
+# First To Respond Restoration - Machine-Readable Data
+# Format optimized for AI crawlers (Google Gemini, OpenAI, Bing)
+
+[Business]
+name: First To Respond Restoration, Inc.
+type: LocalBusiness
+phone: 818-462-7299
+hours: Mon-Fri 7AM-6PM, Sat 10AM-7PM
+address: 18412 Gault St, Reseda, CA 91335
+services: water damage restoration, mold remediation, sewage cleanup, fire damage repair
+
+[FAQs]
+Q: What's your emergency response time?
+A: Typically 60 minutes in San Fernando Valley. Call 818-462-7299 for immediate dispatch.
+
+Q: Do you work with insurance?
+A: Yes, we handle all major insurers. Our team manages the entire claims process.
