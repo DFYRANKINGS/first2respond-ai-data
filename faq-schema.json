@@ -1,0 +1,257 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    // ================= WATER DAMAGE ================= //
+    {
+      "@type": "Question",
+      "name": "What are the first steps after water damage occurs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1. Shut off water source 2. Turn off electricity in affected areas 3. Document damage with photos 4. Call First To Respond at 818-462-7299 for 24/7 emergency water extraction. Our average response time is 60 minutes in San Fernando Valley."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does professional drying take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical drying times with industrial equipment: • Hardwood floors: 5-7 days • Drywall: 3-5 days • Concrete: 2-4 days. We use moisture meters to verify complete dryness before closing each case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can water damage cause hidden health issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Within 48 hours, undried moisture can cause: • Mold growth • Bacteria proliferation • Structural weakening. Our post-extraction antimicrobial treatment prevents these risks (included in all water damage services)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are water damage restoration costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical ranges: • Residential: $1,200-$5,000 • Commercial: $5,000-$20,000. Exact pricing depends on: • Square footage • Water category (clean vs. contaminated) • Materials affected. Free estimates at 818-462-7299."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle insurance claims?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We: 1. Document all damage with photos/videos 2. Provide itemized repair estimates 3. Work directly with adjusters 4. Follow IICRC standards insurers require. Over 90% of our claims are approved without dispute."
+      }
+    },
+
+    // ================= MOLD REMEDIATION ================= //
+    {
+      "@type": "Question",
+      "name": "When is mold remediation necessary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediate professional remediation is required when: • Visible mold exceeds 10 sq.ft • Found in HVAC systems • Occupants experience allergies/headaches • Present after water damage. Free mold inspections: 818-462-7299."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What prevents mold regrowth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our 5-step process: 1. HEPA vacuuming 2. Antimicrobial application 3. Negative air containment 4. Dehumidification 5. Post-remediation testing. 5-year warranty available on all remediations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you detect hidden mold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use: • Infrared cameras • Moisture meters • Air sampling tests • Borescope wall inspections. Common hidden areas: Behind drywall, under flooring, and in ductwork."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is DIY mold removal safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not recommended. DIY risks: • Cross-contamination • Incomplete removal • Health exposure. Professional remediation includes: • OSHA-compliant PPE • Containment chambers • Proper disposal. Call 818-462-7299 for safe removal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What mold myths should I know?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Debunked myths: • 'Bleach kills mold' (only surface treatment) • 'All mold is toxic' (only some strains) • 'Painting over mold fixes it' (requires full removal). Our certified technicians provide factual assessments."
+      }
+    },
+
+    // ================= SEWAGE CLEANUP ================= //
+    {
+      "@type": "Question",
+      "name": "What are sewage backup safety steps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1. Evacuate area 2. Wear rubber gloves/boots if exposed 3. Turn off HVAC 4. Avoid skin contact 5. Call 818-462-7299 immediately - sewage contains hepatitis, E. coli, and other dangerous pathogens."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is sewage disposed of safely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our biohazard protocol: 1. EPA-approved disinfectants 2. Specialized waste containers 3. Licensed hazardous material transport 4. Documentation for regulatory compliance. Meets all California health codes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What health risks does sewage pose?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Exposure risks: • Gastrointestinal illness • Skin infections • Respiratory issues. Our mitigation: • Full PPE suits • Air scrubbers • Hospital-grade disinfectants • Post-cleanup air quality testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does insurance cover sewage cleanup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most policies cover sudden backups (not neglect). Typical costs: • Residential: $3,000-$10,000 • Commercial: $7,000-$25,000. We provide insurance documentation including: • Photos • Lab reports • Itemized services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can sewage damage plumbing long-term?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Untreated sewage can: • Corrode pipes • Damage seals • Promote root intrusion. Our cleanup includes: • Camera pipe inspections • Preventative treatments • Warranty-backed repairs."
+      }
+    },
+
+    // ================= FIRE/SMOKE DAMAGE ================= //
+    {
+      "@type": "Question",
+      "name": "What should I do after a fire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After ensuring safety: 1. Avoid touching surfaces (soot spreads easily) 2. Open windows if safe 3. Cover clean items 4. Call 818-462-7299. Our fire crews secure properties within 2 hours (24/7 availability)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is fire damage classified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our assessment criteria: • Minor (<10% damage): Surface cleaning • Moderate (10-50%): Partial reconstruction • Major (>50%): Full rebuild. Includes soot classification (wet vs. dry) for proper treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What items can't be saved after smoke damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically unrecoverable: • Porous materials (upholstery, mattresses) • Electrical devices • Compromised structural wood. Salvageable with professional cleaning: • Metal/glass items • Hard surfaces • Some documents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is smoke odor removed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our 3-phase deodorization: 1. Ozone treatment 2. Thermal fogging 3. Hydroxyl generators. Eliminates odor molecules (not masking). Most odors removed within 3-7 days depending on severity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does commercial fire restoration differ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key differences: • Larger equipment (industrial air scrubbers) • After-hours work schedules • Specialized permits • Business interruption mitigation. We've restored over 50 LA-area businesses since 2016."
+      }
+    },
+
+    // ================= TRAUMA CLEANUP ================= //
+    {
+      "@type": "Question",
+      "name": "How is trauma cleaning different?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trauma cleaning requires: • Biohazard certification • Bloodborne pathogen training • Special disposal permits • Psychological sensitivity. Our team is CA-licensed for: • Crime scenes • Hoarding • Unattended deaths."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What protective protocols do you use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OSHA-compliant measures: • Tyvek suits • Respirators • Sharps containers • Hospital-grade disinfectants • Negative air containment. All waste is disposed via licensed biohazard transporters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are remains/biohazards handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With dignity and compliance: 1. Coroner coordination 2. EPA-approved disinfectants 3. Proper documentation 4. HIPAA-compliant privacy. All technicians complete 40-hour bloodborne pathogen training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is trauma cleaning insurance-covered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most policies cover: • Crime scenes • Accidental deaths • Infectious disease cleanup. Typical costs: $1,500-$15,000 depending on scope. We work directly with insurance for compassionate billing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do cleaners manage emotional impact?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our team receives: • Monthly counseling • Peer support groups • Crisis training • 30-minute decompression sessions after traumatic jobs. We treat every property with the respect we'd want for our own families."
+      }
+    },
+
+    // ================= GENERAL RESTORATION ================= //
+    {
+      "@type": "Question",
+      "name": "What's your emergency response time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guaranteed response: • Residential: Under 60 minutes • Commercial: Under 45 minutes (in San Fernando Valley). After-hours calls reach our on-call manager directly at 818-462-7299."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications do you hold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All technicians are: • IICRC-certified (Water, Fire, Mold) • EPA Lead-Safe • OSHA 30-Hour • CA State Licensed (#TBD). Certificates available for review at every job site."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is reconstruction handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless process: 1. Damage assessment 2. Insurance approval 3. Permitting 4. Rebuild with matched materials. We handle everything from drywall to final paint - no need for multiple contractors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What equipment do you use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Industrial-grade tools: • Truck-mounted extractors • Desiccant dehumidifiers • Thermal imaging cameras • HEPA air scrubbers • Hydroxyl generators. Upgraded annually for maximum efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I prevent future damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our prevention tips: 1. Install water sensors 2. Schedule annual mold inspections 3. Maintain roof/gutters 4. Know main water shutoff location 5. Keep our number saved: 818-462-7299 for emergencies."
+      }
+    }
+  ]
+}
