@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "First To Respond Restoration, Inc.",
+      "url": "https://www.first2respond.com/",
+      "logo": "https://www.first2respond.com/logo.png",
+      "foundingDate": "2016",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "18412 Gault St",
+        "addressLocality": "Reseda",
+        "addressRegion": "CA",
+        "postalCode": "91335"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-818-462-7299",
+        "email": "chris@first2respond.com",
+        "areaServed": ["Los Angeles", "Ventura County"]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How quickly can you respond to water damage emergencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We typically arrive within 60 minutes for emergency water extraction in the San Fernando Valley area. Call 818-462-7299 for immediate dispatch."
+          }
+        }
+      ]
+    }
+  ]
+}
