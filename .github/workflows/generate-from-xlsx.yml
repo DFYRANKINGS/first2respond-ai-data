@@ -1,16 +1,11 @@
 name: Generate JSON/YAML from XLSX and Update Sitemap
 
-# 💡 TIP: Upload ANY .xlsx file (e.g., client-data-v2.xlsx) to templates/ — it will auto-rename to client-data.xlsx
-#        → No need to delete old file — it will be overwritten automatically.
-#        → Avoid uploading same filename via web UI — may not trigger workflow.
-
 on:
   push:
     branches:
       - main
     paths:
       - 'templates/*.xlsx'
-  workflow_dispatch:  # 👈 Allows manual run from Actions tab (fallback trigger)
 
 jobs:
   generate-and-update:
@@ -51,24 +46,6 @@ jobs:
 
           echo "changed_xlsx=$CHANGED_FILES" >> $GITHUB_ENV
 
-      - name: Rename Any XLSX to client-data.xlsx (Auto-replace)
-        if: env.changed_xlsx != ''
-        run: |
-          # Process each changed file
-          while IFS= read -r xlsx_file; do
-            if [ -n "$xlsx_file" ] && [ -f "$xlsx_file" ]; then
-              TARGET="templates/client-data.xlsx"
-              if [[ "$xlsx_file" != "$TARGET" ]]; then
-                echo "🔄 Renaming '$xlsx_file' → '$TARGET'"
-                mkdir -p templates  # Ensure dir exists
-                mv "$xlsx_file" "$TARGET"  # Overwrites existing file
-                echo "changed_xlsx=$TARGET" >> $GITHUB_ENV  # Update for next steps
-              else
-                echo "✅ File already named correctly: $TARGET"
-              fi
-            fi
-          done <<< "${{ env.changed_xlsx }}"
-
       - name: Process Each XLSX File
         if: env.changed_xlsx != ''
         run: |
@@ -99,4 +76,49 @@ jobs:
           touch schema-files/services/.gitkeep
           touch schema-files/products/.gitkeep
           touch schema-files/faqs/.gitkeep
-         
+          touch schema-files/help-articles/.gitkeep
+          touch schema-files/reviews/.gitkeep
+          touch schema-files/locations/.gitkeep
+          touch schema-files/team/.gitkeep
+          touch schema-files/awards/.gitkeep
+          touch schema-files/press/.gitkeep
+          touch schema-files/case-studies/.gitkeep
+
+      - name: Generate or Update Sitemap (FORCE UPDATE)
+        run: |
+          python generate_sitemaps.py
+          touch ai-sitemap.xml
+
+      - name: Verify All Generated Files Exist
+        run: |
+          echo "🔍 VERIFYING OUTPUTS — Listing all generated files:"
+          echo "=================================================="
+          find schema-files -type f KATEX_INLINE_OPEN -name "*.json" -o -name "*.yaml" -o -name "*.md" -o -name "*.llm" KATEX_INLINE_CLOSE | sort
+          echo ""
+          echo "📄 ai-sitemap.xml last modified:"
+          ls -la ai-sitemap.xml
+
+      - name: Configure Git Identity
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Setup Remote with Token (Extra Safety)
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: FORCE ADD AND COMMIT EVERYTHING
+        run: |
+          git add --all
+          echo "📦 STAGED CHANGES:"
+          git status --short
+          git commit -m "🤖 Auto-generate schema + sitemap [$(date +'%Y-%m-%d %H:%M:%S')]" || echo "✅ No changes, still pushing"
+          echo "🚀 PUSHING TO: ${{ github.ref_name }}"
+          git push origin ${{ github.ref_name }}
+
+      - name: DEBUG - Verify Push Result
+        run: |
+          echo "🔎 Verifying latest commit on remote..."
+          git fetch origin ${{ github.ref_name }}
+          git log -1 origin/${{ github.ref_name }} --oneline
+          echo "✅ If commit above matches, SUCCESS! Files are live at Raw URLs."
